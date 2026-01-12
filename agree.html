@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Cảm ơn nha</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font đẹp -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(135deg, #ff9a9e, #fad0c4, #ffd1dc);
+            background-size: 400% 400%;
+            animation: bgMove 10s ease infinite;
+            font-family: 'Dancing Script', cursive;
+        }
+
+        @keyframes bgMove {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .box {
+            text-align: center;
+            animation: fadeIn 1.5s ease;
+        }
+
+        h1 {
+            font-size: 46px;
+            color: #d6336c;
+            margin-bottom: 16px;
+            animation: pulse 2s infinite;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #ff5c8a;
+            opacity: 0.9;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>hihi em biết chị tha lỗi cho em mà 💖</h1>
+    </div>
+
+</body>
+</html>
